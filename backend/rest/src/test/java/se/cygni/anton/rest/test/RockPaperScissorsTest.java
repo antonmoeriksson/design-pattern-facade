@@ -6,8 +6,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import se.cygni.anton.rps.data.api.GameFacade;
-import se.cygni.anton.rps.data.impl.RockPaperScissors;
 import se.cygni.anton.rps.rest.RockPaperScissorsService;
 
 public class RockPaperScissorsTest {

@@ -10,9 +10,11 @@ import java.util.List;
 
 
 public class Player implements PlayerFacade {
+    @JsonIgnore(true)
     private HashMap<String, PlayerFacade> players = new HashMap<String, PlayerFacade>();
 
     private String name;
+
     @JsonIgnore(true)
     private Move move;
     private boolean hasMadeMove = false;
@@ -28,20 +30,12 @@ public class Player implements PlayerFacade {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Move getMove() {
         return move;
     }
 
     public void setMove(Move move) {
         this.move = move;
-    }
-
-    public String getName(PlayerFacade playerFacade) {
-        return ((Player) playerFacade).name;
     }
 
     public Move[] getMoves() {
@@ -51,10 +45,6 @@ public class Player implements PlayerFacade {
     public PlayerFacade createPlayer(String name) {
         players.put(name, new Player(name));
         return players.get(name);
-    }
-
-    public PlayerFacade createPlayer() {
-        return new Player();
     }
 
     public PlayerFacade getPlayer(String name) {

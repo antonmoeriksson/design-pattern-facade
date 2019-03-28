@@ -4,14 +4,15 @@ import util.Move;
 
 public interface PlayerFacade {
     PlayerFacade createPlayer(String name);
-    PlayerFacade createPlayer();
-
-    String getName(PlayerFacade playerFacade);
-    Move[] getMoves();
     PlayerFacade getPlayer(String name);
+
+    String getName();
+
+    Move getMove();
+    Move[] getMoves();
+
+    void setMove(Move move);
+
     boolean hasMadeMove(String name);
     void setHasMadeMove(boolean hasMadeMove);
-
-
-
 }

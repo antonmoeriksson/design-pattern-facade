@@ -18,8 +18,8 @@ public class PlayerLogic implements PlayerLogicFacade {
 
     public boolean execMove(PlayerFacade playerFacade, String move) {
         for (Move m : playerFacade.getMoves()) {
-            if (m.toString().equals(move)) {
-                ((Player)playerFacade).setMove(m);
+            if (m.toString().equals(move.toLowerCase())) {
+                playerFacade.setMove(m);
                 return true;
             }
         }
