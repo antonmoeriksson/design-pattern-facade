@@ -1,0 +1,7 @@
+se/cygni/anton/rps/data/api/PlayerFacade.class
+util/State.class
+util/Move.class
+se/cygni/anton/rps/data/impl/RockPaperScissors.class
+se/cygni/anton/rps/data/impl/Player.class
+util/Move$1.class
+se/cygni/anton/rps/data/api/GameFacade.class

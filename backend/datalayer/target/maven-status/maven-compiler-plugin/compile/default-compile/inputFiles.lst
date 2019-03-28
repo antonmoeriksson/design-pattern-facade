@@ -1,0 +1,6 @@
+/home/ame/git/tdp024/backend/datalayer/src/main/java/se/cygni/anton/rps/data/impl/Player.java
+/home/ame/git/tdp024/backend/datalayer/src/main/java/se/cygni/anton/rps/data/impl/RockPaperScissors.java
+/home/ame/git/tdp024/backend/datalayer/src/main/java/util/State.java
+/home/ame/git/tdp024/backend/datalayer/src/main/java/se/cygni/anton/rps/data/api/GameFacade.java
+/home/ame/git/tdp024/backend/datalayer/src/main/java/util/Move.java
+/home/ame/git/tdp024/backend/datalayer/src/main/java/se/cygni/anton/rps/data/api/PlayerFacade.java
