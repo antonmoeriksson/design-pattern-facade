@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="datalayer" />
+        <module name="logic" />
+        <module name="rest" />
+        <module name="RPS-datalayer" />
+        <module name="RPS-logic" />
+        <module name="RPS-rest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="backend" target="1.5" />
+      <module name="datalayer" target="1.5" />
+      <module name="logic" target="1.5" />
+      <module name="rest" target="1.5" />
+      <module name="RPS-datalayer" target="1.5" />
+      <module name="RPS-logic" target="1.5" />
+      <module name="RPS-rest" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
