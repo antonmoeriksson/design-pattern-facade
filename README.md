@@ -8,7 +8,7 @@ För att starta upp servern, gör följande:
 
 $ git@github.com:antonmoeriksson/tmp.git 
 
-$ cd backend 
+$ cd tmp/backend 
 
 $ mvn clean install && mvn spring-boot:run -pl rest 
 
