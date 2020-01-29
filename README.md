@@ -1,4 +1,4 @@
-# Temporärt repo för kodprov! 
+# Test av designmönstret Facade! 
 
 En sten, sax & påse server-implementation i tre lager (moduler); rest, logik och data som med designmönstret Facade skapar en variant på spelet. 
 
